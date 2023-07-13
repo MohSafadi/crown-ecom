@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Brown Brim",
+        "imageUrl": "https://img.freepik.com/free-photo/old-fedora-hat_1101-692.jpg?w=1800&t=st=1689213796~exp=1689214396~hmac=57b61890aa97244f9719fa13a54b0784e4996669c4bcc79591ed8f991a83b057",
+        "price": 25
+    },
+    {
+        "id": 2,
+        "name": "Blue Beanie",
+        "imageUrl": "https://img.freepik.com/free-psd/cap-mock-up-lateral-view_1310-154.jpg?w=1800&t=st=1689213845~exp=1689214445~hmac=5dc981445bb597ea9440183d7d108fe4f1aac2c1c6b6e1a2f8c0924774bad111",
+        "price": 18
+    },
+    {
+        "id": 3,
+        "name": "Brown Cowboy",
+        "imageUrl": "https://img.freepik.com/premium-psd/black-cap-logo-mockup-branding_57262-85.jpg?w=1800",
+        "price": 35
+    },
+    {
+        "id": 4,
+        "name": "Grey Brim",
+        "imageUrl": "https://img.freepik.com/premium-psd/isolated-white-cap-mockup_125540-1040.jpg?w=1800",
+        "price": 25
+    },
+    {
+        "id": 5,
+        "name": "Green Beanie",
+        "imageUrl": "https://img.freepik.com/free-photo/beautiful-woman-baseball-cap-headband-fashion-studio-shoot_53876-102175.jpg?w=826&t=st=1689213908~exp=1689214508~hmac=66a81a830ff4905ba1b8a30d51990d03c616b08e2a0438f8b0f58ecb8d910e45",
+        "price": 18
+    },
+    {
+        "id": 6,
+        "name": "Palm Tree Cap",
+        "imageUrl": "https://img.freepik.com/free-photo/great-blue-hat_1203-1941.jpg?w=1800&t=st=1689213921~exp=1689214521~hmac=384d5e0744c9919879ec0356d94f9d6f86be8c295787b7e990b01a1fa8c7267d",
+        "price": 14
+    },
+    {
+        "id": 7,
+        "name": "Red Beanie",
+        "imageUrl": "https://img.freepik.com/free-photo/set-two-trucker-hats-with-mesh-back_23-2149410050.jpg?w=1800&t=st=1689213938~exp=1689214538~hmac=07e0ec5b916568af41d246af12ce9d80689928cee00e1f0c5affe0148dae8942",
+        "price": 18
+    },
+    {
+        "id": 8,
+        "name": "Wolf Cap",
+        "imageUrl": "https://as1.ftcdn.net/v2/jpg/00/15/10/90/1000_F_15109044_ArxhhCPA08qvXWUB6221awQXzVk5qLXr.jpg",
+        "price": 14
+    },
+    {
+        "id": 9,
+        "name": "Blue Snapback",
+        "imageUrl": "https://as2.ftcdn.net/v2/jpg/00/34/26/83/1000_F_34268341_uDo0iqfYNU23mH56Ye4ItEadQNXbGEX0.jpg",
+        "price": 16
+    }
+]

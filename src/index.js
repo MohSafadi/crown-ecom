@@ -6,6 +6,7 @@ import App from './App';
 import { UserProvider } from './components/contexts/user.context';
 
 import './index.scss';
+import { ProductsProvider } from './components/contexts/products.context';
 
 const rootElement = document.getElementById('root');
 
@@ -13,7 +14,9 @@ render(
   <React.StrictMode>
     <BrowserRouter>
       <UserProvider>
-        <App />
+        <ProductsProvider>
+          <App />
+        </ProductsProvider>
       </UserProvider>
     </BrowserRouter>
   </React.StrictMode>,
