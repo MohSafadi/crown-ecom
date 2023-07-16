@@ -17,7 +17,14 @@ export const UserProvider = ({ children }) => {
     const [currentUser, setCurrentUser] = useState(null);
     const value = { currentUser, setCurrentUser };
 
+    //This is an open listener, its permanantly listens, We use useEffect because we only need to run it once
+    //This code runs onMount first, it will track "Auth" changes from firebase.
+    //It can either return "Null" if no user found or "user" object if user is found
+    //Once the Auth changes, sign in and sign out will change the Auth Thats when this code runs again
     useEffect(() => {
+
+        //We take the "user" as the "callback" for this function, and check if its found
+        //if user is not "null" we will run "createUserDocum.." from firebase as well as "setCurrentUser" in context
         const unsubscribe = onAuthStateChangedListener((user) => {
             if (user) {
                 createUserDocumentFromAuth(user);

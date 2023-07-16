@@ -100,4 +100,6 @@ export const signInAuthUserWithEmailAndPassword = async (email, password) => {
 
 export const signOutUser = async () => await signOut(auth);
 
+//This is an Observer Listener where it will listen to a call back and return the auth with the call back
+//This is what we will pass into the context and take in the user details
 export const onAuthStateChangedListener = (callback) => onAuthStateChanged(auth, callback);
