@@ -16,4 +16,6 @@ const ProductCard = ({ products }) => {
     )
 };
 
+//This component will be used in "shop.component" where it has access to the shop-data.json.
+//The code there maps through the json and applies it to the component to show separate product cards.
 export default ProductCard;
